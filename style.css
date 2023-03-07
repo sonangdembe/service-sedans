@@ -1,46 +1,60 @@
-/* Box-sizing border-box */
-* {
-    box-sizing: border-box; 
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
 }
-
-
-/* Some default styles to make each box visible */
-.box {
-  color:white;
-  font-size: 100px;
-  text-align: center;
-  text-shadow:4px 4px 0 rgba(0,0,0,0.1);
-  padding:10px;
-}
-
-/* Colours for each box */
-.box1 { background:#1abc9c;}
-.box2 { background:#3498db;}
-.box3 { background:#9b59b6;}
-.box4 { background:#34495e;}
-.box5 { background:#f1c40f;}
-.box6 { background:#e67e22;}
-.box7 { background:#e74c3c;}
-.box8 { background:#bdc3c7;}
-.box9 { background:#2ecc71;}
-.box10 { background:#16a085;}
-
-/** Write your css here **/
-
-.container{
+body{
+    background-color:hsl(0, 0%, 95%);
+    min-height: 200vh;
+    font-size: 15px;
     display: flex;
-    /* justify-content: space-around; */
-    /* align-items: flex-start; */
-    /* flex-wrap: wrap; */
-     height: 100vh; 
-     border: 4px solid red; 
-     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
+font-family: 'Lexend Deca', sans-serif;
 }
-.container{
-    width: 33.33%;
+.service-container{
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+    overflow: hidden;
 }
-.box3{
-    order: 2;
+.service{
+    width: 250px;
+    color: hsla(0, 0%, 100%, 0.75);
+    padding: 80px 30px;
+
+}
+.service-sedans{
+background-color:hsl(31, 77%, 52%);
+}
+.service-suv{
+    background-color:  hsl(184, 100%, 22%);
+}
+.service-luxury{
+    background-color:  hsl(179, 100%, 13%);
+}
+.service-title{
+     text-transform: uppercase;
+     margin-top: 30px;
+     margin-bottom: 30px;
+     font-family: 'Big Shoulders Display', cursive;
+}
+.service-bottom{
+background-color: white;
+padding: 15px 30px;
+margin-top: 40px;
+border: none;
+border-radius:20px;
+font-family: 'Lexend Deca', sans-serif;
+
+}
+.service-sedans .service-button{
+    color: hsl(31, 77%, 52%);
+
+}
+.service-suv .service-button{
+    color: hsl(184, 100%, 22%);
+}
+.service-luxury .service-button{
+    color: hsl(179, 100%, 13%);
 }
