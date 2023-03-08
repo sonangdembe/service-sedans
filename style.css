@@ -12,6 +12,7 @@ body{
     align-items: center;
 font-family: 'Lexend Deca', sans-serif;
 }
+
 .service-container{
     display: flex;
     justify-content: center;
@@ -39,7 +40,7 @@ background-color:hsl(31, 77%, 52%);
      margin-bottom: 30px;
      font-family: 'Big Shoulders Display', cursive;
 }
-.service-bottom{
+.service-button{
 background-color: white;
 padding: 15px 30px;
 margin-top: 40px;
