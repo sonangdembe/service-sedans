@@ -1,3 +1,3 @@
 # service-sedans
 how the image is transfer in center 
-[click here to see result](http://127.0.0.1:5500/index.html)
+[click here to see result](https://s1o2n3a4.github.io/service-sedans/)
